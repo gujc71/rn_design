@@ -26,4 +26,4 @@ This app has been tested only on Android.
 
 
 ### License ###
-GPL v3
+MIT
