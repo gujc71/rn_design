@@ -57,7 +57,7 @@ export default class LoginScreen extends Component {
           <View style={styles.loginView}>
             <View style={styles.loginTitle}>
               <View style={{ flexDirection: 'row' }}>
-                <Text style={styles.travelText}>Project9</Text>
+                <Text style={styles.travelText}>Design9</Text>
               </View>
             </View>
             <View style={styles.loginInput}>

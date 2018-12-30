@@ -18,7 +18,7 @@ const randomUsers = (count = 10) => {
 
 export default class HomeTab extends Component {
   static navigationOptions = {
-    title: 'Home',
+    title: 'Design9',
   };
 
   state = {

@@ -4,6 +4,7 @@ This is a Design Template App for React-Native.
 
 This app has been tested only on Android.
 
+![Screenshot](./screenshot.png)
 
 ### Library ###
 - react-native-elements
