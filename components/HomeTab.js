@@ -68,7 +68,8 @@ export default class HomeTab extends Component {
           data={this.state.data}
           renderItem={({ item }) => {
             return (
-              <ListItem title={item.name} roundAvatar avatar={{uri: item.avatar}} hideChevron={true} 
+              <ListItem title={item.name} avatar={{ source: { uri: item.avatar } }}
+                  leftAvatar={{ source: { uri: item.avatar } }}
                   onPress={() => this.props.navigation.navigate('Details', {title: item.name})} 
                   onLongPress={()=>this.handleLongPress(item)}/>
             );
@@ -122,16 +123,16 @@ styles = StyleSheet.create({
     borderColor: '#000',
     borderRadius:10,
 	  backgroundColor: '#fff', 
-    width: 300,
-    height: 200
+    width: 250,
+    height: 150
   },
   dialogTitle: {
-    fontSize: 25,
+    fontSize: 20,
     fontWeight: 'bold',
 
   },
   dialogItem: {
-    fontSize: 20,
+    fontSize: 16,
     marginTop: 20
   },
 })
