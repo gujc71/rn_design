@@ -20,9 +20,7 @@ This app has been tested only on Android.
 ### Install & Run ###
 
 - git clone https://github.com/gujc71/rn_design.git
-- npm install
-- react-native link react-native-gesture-handler
-- react-native link react-native-vector-icons
+- yarn (npm i)
 - react-native run-android (or react-native run-ios)
 
 
