@@ -15,7 +15,6 @@ This app has been tested only on Android.
 - Login 
 - Tab (Bottom)
 - List (FlatList with fake data)
-- Modal (for full screen)
 
 ### Install & Run ###
 

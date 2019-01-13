@@ -80,16 +80,16 @@ export default class HomeTab extends Component {
         </TouchableOpacity>
 
         <TouchableOpacity onPress={()=>this.setModalVisible(false)}>
-        <Modal animationType="slide" transparent={true} visible={this.state.modalVisible} onRequestClose={() => {}}>
-          <View style={styles.dialog}>
-            <View style={styles.dialogView}>
-              <Text style={styles.dialogTitle}>{this.state.selectedItem.name}</Text>
-              <TouchableOpacity onPress={() => this.handleShowDetail()}>
-                <Text style={styles.dialogItem}>View Detail</Text>
-              </TouchableOpacity>
-              <TouchableOpacity onPress={() => this.handleDelete()}><Text style={styles.dialogItem}>Delete</Text></TouchableOpacity>
+          <Modal animationType="slide" transparent={true} visible={this.state.modalVisible} onRequestClose={() => {}}>
+            <View style={styles.dialog}>
+              <View style={styles.dialogView}>
+                <Text style={styles.dialogTitle}>{this.state.selectedItem.name}</Text>
+                <TouchableOpacity onPress={() => this.handleShowDetail()}>
+                  <Text style={styles.dialogItem}>View Detail</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => this.handleDelete()}><Text style={styles.dialogItem}>Delete</Text></TouchableOpacity>
+              </View>
             </View>
-          </View>
         </Modal>          
         </TouchableOpacity>
       </View>        
